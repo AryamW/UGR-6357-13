@@ -161,4 +161,8 @@ h4.contacts-nav{
     .header__p{
         display: none;
     }
+    
+    .div__img{
+        position: relative;
+    }
 }
