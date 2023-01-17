@@ -32,6 +32,7 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
+    flex-wrap: wrap;
     font-size: large;
     justify-content: center;
     /* column-gap: 10px;
@@ -158,8 +159,12 @@ h4.contacts-nav{
     .header__p{
         display: none;
     }
-
-
+    
+    .div__h1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     .div__a__img {
         display: flex;
         flex-direction: column;
