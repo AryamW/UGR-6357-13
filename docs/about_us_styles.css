@@ -103,7 +103,7 @@ body {
 .div__h3{
     font-size: 2rem;
 }
-.main-content img { 
+.div__img { 
     width: 250px;
 }
 
@@ -135,6 +135,10 @@ body {
 
 }
 
+.lst{
+    position: relative;
+    left:-10px;
+}
 
 .quick-nav.lst {
     grid-area: lst1;
@@ -166,9 +170,12 @@ h4.contacts-nav{
     .header__p{
         display: none;
     }
-    .div--center {
-        /* text-align: center; */
+    .div__h1 {
+        left:0vw;
+    }
+
+    .div__img{
         position: relative;
-        left:30%;
+        left: 20vw;
     }
 }
