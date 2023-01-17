@@ -172,6 +172,6 @@ h4.contacts-nav{
     }
     
     .div--center{
-        left:none
+        left:0;
     }
 }
