@@ -131,6 +131,10 @@ body {
 
 }
 
+.lst{
+    position: relative;
+    left:-10px;
+}
 
 .quick-nav.lst {
     grid-area: lst1;
@@ -165,5 +169,9 @@ h4.contacts-nav{
     
     .div__img{
         position: relative;
+    }
+    
+    .div--center{
+        left:none
     }
 }
