@@ -165,6 +165,7 @@ body {
     display: flex;
     flex-direction: column;
     width: max-content;
+    max-width: 425px;
     margin: 3rem;
     background-color: whitesmoke;
     outline:whitesmoke;
@@ -190,6 +191,10 @@ body {
 
 }
 
+.lst{
+    position: relative;
+    left:-10px;
+}
 
 .quick-nav.lst {
     grid-area: lst1;
@@ -228,6 +233,19 @@ h4.contacts-nav{
     }
     .div__a{
         position: relative;
+    }
+    .div__p{
+        float: none;
+        width: 100vw;
+    }
+
+    iframe{
+        width:inherit;
+    }
+
+    .div__form{
+        width: 100vw;
+        max-width: 425px;
     }
 
 }
