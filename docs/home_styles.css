@@ -129,6 +129,10 @@ body {
 
 }
 
+.lst{
+    position: relative;
+    left:-10px;
+}
 
 .quick-nav.lst {
     grid-area: lst1;
