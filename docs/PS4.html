@@ -5,78 +5,134 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>Top Games - PS4</title>
-        <link rel="stylesheet" href="pages_styles.css">
+        
+        
         <script src="trial.js"></script>
 
 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 
     </head>
-    <body>
-        <main>
+    <body class="d-flex h-100 text-center bg-body-secondary">
+        <div class="cover-container container-sm d-flex w-100 h-100 p-3 mx-auto flex-column">
         
-            <header class="header">
-                <img src="files/logo.png" class="header__img header--logo" alt="top games logo">
-                 <nav class="header__nav">
+        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+ 
+
+
+            <header class="header navbar sticky-top bg-body-tertiary top-0 row rounded-4">
     
-                    <ul class="nav__ul">
-                        <li><a class="nav__ul__a" href="index.html">Home</a></li>
-                        <li><a class="nav__ul__a" href="PC.html">PC</a></li>
-                        <li><a class="nav__ul__a" href="PS4.html">PS4</a></li>
-                        <li><a class="nav__ul__a" href="Xbox.html">Xbox</a></li>
-                        <li><a class="nav__ul__a" href="ALL.html">ALL</a></li>
+                <a class="navbar-brand col-lg-1" href="index.html">
+                    <img src="files/logo.png" alt="Logo" width="350px" class="d-inline-block align-text-top">
+                </a>
+    
+                 <nav class="col-lg-6">
+    
+                    <ul class="nav display-6 bg-body-secondary rounded-4">
+                        <li class="nav-item"><a class="nav-link active text-black" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active text-black" href="PC.html">PC</a></li>
+                        <li class="nav-item"><a class="nav-link active text-black" aria-current="page" href="#">PS4</a></li>
+                        <li class="nav-item"><a class="nav-link active text-black" href="Xbox.html">Xbox</a></li>
+                        <li class="nav-item"><a class="nav-link active text-black" href="ALL.html">ALL</a></li>
                     </ul>
     
     
                 </nav>
-                <p class="header__p"><a class="header__p__a" href="index.html">Home</a> >> About Us</p>
-                <label class="header__label">Music</label><audio class="header__audio" controls><source src="files/audio.mp3" type="audio/mp3"></audio>
-            
+                <div>
+                       <div class="dropdown d-inline-block float-start bg-info-subtle rounded-pill">
+                            <a class="btn btn-close-white dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Music
+                            </a>
+                          
+                            <ul class="dropdown-menu">
+                              <li><audio controls><source src="files/audio.mp3" type="audio/mp3"></audio></li>
+                            </ul>
+                        </div>
+                  
+                <ol class="breadcrumb float-start bg-body-secondary rounded-pill">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">PS4</li>
+                  </ol>
     
+    
+                
+                </div>
             </header>
-
-        <div class="div">
-            <aside class="aside">JUMP TO:
-                <ol>
-                    <li class="aside__li" ><a class="aside__li__a" href="#god-of-war">God of War</a></li>
-                    <li class="aside__li" ><a class="aside__li__a" href="#spider-man">Marvel's Spider-Man</a></li>
-                    <li class="aside__li" ><a class="aside__li__a" href="#the-last-of-us-2">The Last of Us Part II</a></li>
-                    <li class="aside__li" ><a class="aside__li__a" href="#mgsv">Metal Gear Solid V: The Phantom Pain</a></li>
-                    <li class="aside__li" ><a class="aside__li__a" href="#uncharted-4">UNCHARTED 4: A Thief's End</a></li>
+        <main>
+        
+            <aside class="aside rounded-4 bg-secondary dropdown position-fixed bottom-0 end-0 z-1">
+                <a class="btn btn-close-white dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    JUMP TO:
+                  </a>
+                  <ol class="dropdown-menu">
+                    <li class="bg-body-secondary"><a class="text-body-secondary" href="#god-of-war">God of War</a></li>
+                    <li ><a class="text-body-secondary" href="#spider-man">Marvel's Spider-Man</a></li>
+                    <li class="bg-body-secondary" ><a class="text-body-secondary" href="#the-last-of-us-2">The Last of Us Part II</a></li>
+                    <li ><a class="text-body-secondary" href="#mgsv">Metal Gear Solid V: The Phantom Pain</a></li>
+                    <li class="bg-body-secondary" ><a class="text-body-secondary" href="#uncharted-4">UNCHARTED 4: A Thief's End</a></li>
                 </ol>
             </aside>
             
             
-            <h1 class="div--center">PS4</h1>
-            <h3 class="div__h3" id="god-of-war">1, God of War </h3>
-            <h4>Description</h4>
-            <p class="div__p">
+            <h1>PS4</h1>
+
+        <div class="row">
+
+            <h3 class="row" id="god-of-war">1, God of War </h3>
+            <h4 class="row">Description</h4>
+            <p class="col-lg-7">
                 From Santa Monica Studio and creative director Cory Barlog comes a new beginning for one of gaming's most recognizable icons. Living as a man outside the shadow of the gods, Kratos must adapt to unfamiliar lands, unexpected threats, and a second chance at being a father. Together with his son Atreus, the pair will venture into the brutal Norse wilds and fight to fulfill a deeply personal quest.
                 </p>
-            <img class="div__img" src="files/God_of_War_4_cover.jpg" alt="God of War cover photo">
-            <a class="div__a" href="https://www.chaptercheats.com/game/playstation4/362427/God-Of-War.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
+
+                <div class="card shadow-sm bg-body-secondary col-sm-2">
+                    <img class="div__img" src="files/God_of_War_4_cover.jpg" alt="God of War cover photo">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a class="div__a" href="https://www.chaptercheats.com/game/playstation4/362427/God-Of-War.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        
+            <h4 class="row">Trailer:</h4>
             
-            <h4>Trailer:</h4>
+            <div class="ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/K0u_kAWLJOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
+            </div>
             
 
-            <h3 class="div__h3" id="spider-man">2, Marvel's Spider-Man </h3>
-            <h4>Description</h4>
-            <p class="div__p">Developed by Insomniac Games in collaboration with Marvel, and optimized for PC by Nixxes Software, 
+
+            <h3 class="row" id="spider-man">2, Marvel's Spider-Man </h3>
+            <h4 class="row">Description</h4>
+            <p class="col-lg-7">Developed by Insomniac Games in collaboration with Marvel, and optimized for PC by Nixxes Software, 
                 Marvel's Spider-Man Remastered on PC introduces an experienced Peter Parker who's fighting big crime and 
                 iconic villains in Marvel's New York. At the same time, he's struggling to balance his chaotic personal life and 
                 career while the fate of Marvel's New York rests upon his shoulders.</p>
-            <img class="div__img" src="files/Spider-Man_PS4_cover.jpg" alt="Marvel's Spider-Man cover photo">
-            <a class="div__a" href="https://www.chaptercheats.com/game/playstation4/362435/Marvels-SpiderMan.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
-            
-            <h4>Trailer:</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3R2uvJqWeVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
 
-            <h3 class="div__h3" id="the-last-of-us-2">3, The Last of Us Part II </h3>
-            <h4>Description</h4>
-            <p class="div__p">Five years later.. After a deadly journey across post-pandemic USA, 
+                <div class="card shadow-sm bg-body-secondary col-sm-2">
+                    <img class="div__img" src="files/Spider-Man_PS4_cover.jpg" alt="Marvel's Spider-Man cover photo">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                             <a class="div__a" href="https://www.chaptercheats.com/game/playstation4/362435/Marvels-SpiderMan.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+            <h4 class="row">Trailer:</h4>
+            
+            <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3R2uvJqWeVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+
+            <h3 class="row" id="the-last-of-us-2">3, The Last of Us Part II </h3>
+            <h4 class="row">Description</h4>
+            <p class="col-lg-7">Five years later.. After a deadly journey across post-pandemic USA, 
                 Ellie and Joel settle down in Wyoming. Living in a thriving community gives them stability, 
                 despite the threat of the Infected and desperate survivors.
 
@@ -86,18 +142,30 @@
                 peaceful mountains to overgrown ruins. Experience action-survival gameplay of tense melee combat, fluid movement and 
                 dynamic stealth.
             </p>
-            <img class="div__img" src="files/TLOU_P2_Box_Art_2.png" alt="The Last of Us Part 2 cover photo">
-            <a class="div__a" href="https://www.chaptercheats.com/game/playstation4/374685/The-Last-Of-Us-Part-2.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
-            
-            <h4>Trailer:</h4>
+
+            <div class="card shadow-sm bg-body-secondary col-sm-2">
+                <img class="div__img" src="files/TLOU_P2_Box_Art_2.png" alt="The Last of Us Part 2 cover photo">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a class="div__a" href="https://www.chaptercheats.com/game/playstation4/374685/The-Last-Of-Us-Part-2.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <h4 class="row">Trailer:</h4>
+
+            <div class="ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Gse0LU73G7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 
 
-            <h3 class="div__h3" id="mgsv">4, Metal Gear Solid V: The Phantom Pain</h3>
-            <h4>Description</h4>
-            <p class="div__p">The Soviet invasion of Afghanistan has brought a new edge to the Cold War, 
+            <h3 class="row" id="mgsv">4, Metal Gear Solid V: The Phantom Pain</h3>
+            <h4 class="row">Description</h4>
+            <p class="col-lg-7">The Soviet invasion of Afghanistan has brought a new edge to the Cold War, 
                 and in 1984, a one-eyed man with a prosthetic arm appears in the country. Those who 
                 know him call him Snake; the legendary mercenary who was once swept from the stage of history and 
                 left in a coma by American private intelligence network Cipher. Snake is accompanied by Ocelot, an old 
@@ -109,16 +177,29 @@
                 so many of Snake's men, and to a battle that will embroil the whole world...
                 
                 What started in Ground Zeroes must finish with "V".</p>
-            <img class="div__img" src="files/Metal_Gear_Solid_V_The_Phantom_Pain_cover.png" alt="Metal Gear Solid V: The Phantom Pain cover photo">
-            <a class="div__a" href="https://www.chaptercheats.com/cheats/playstation4/123603/Metal-Gear-Solid-5-The-Phantom-Pain-Cheats.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
+
+
+                <div class="card shadow-sm bg-body-secondary col-sm-2">
+                    <img class="div__img" src="files/Metal_Gear_Solid_V_The_Phantom_Pain_cover.png" alt="Metal Gear Solid V: The Phantom Pain cover photo">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a class="div__a" href="https://www.chaptercheats.com/cheats/playstation4/123603/Metal-Gear-Solid-5-The-Phantom-Pain-Cheats.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            <h4 class="row">Trailer:</h4>
             
-            <h4>Trailer:</h4>
+            <div class="ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/C19ap2M7DDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             
-            
-            <h3 class="div__h3" id="uncharted-4">5, UNCHARTED 4: A Thief's End</h3>
-            <h4>Description</h4>
-            <p class="div__p">Set three years after the events of UNCHARTED 3: Drake's Deception, 
+
+            <h3 class="row" id="uncharted-4">5, UNCHARTED 4: A Thief's End</h3>
+            <h4 class="row">Description</h4>
+            <p class="col-lg-7">Set three years after the events of UNCHARTED 3: Drake's Deception, 
                 Nathan Drake has presumably left the world of fortune-hunting behind. However, it doesn't 
                 take long for fate to come calling when Drake's brother, Sam, resurfaces seeking his help to save his 
                 own life and offering an adventure Drake can't resist.  
@@ -127,55 +208,78 @@
                 Sam and Drake set off to find Libertalia, the pirate utopia deep in the forests of Madagascar. 
                 UNCHARTED 4: A Thief's End takes players on a journey around the globe, through jungle isles, far-flung cities 
                 and snow-capped peaks on the search for Avery's fortune.</p>
-            <img class="div__img" src="files/Uncharted_4_box_artwork.jpg" alt="UNCHARTED 4: A Thief's End cover photo">
-            <a class="div__a" href="https://www.chaptercheats.com/game/playstation4/139811/Uncharted-4-A-Thiefs-End.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
+
+
+                <div class="card shadow-sm bg-body-secondary col-sm-2">
+                    <img class="div__img" src="files/Uncharted_4_box_artwork.jpg" alt="UNCHARTED 4: A Thief's End cover photo">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a class="div__a" href="https://www.chaptercheats.com/game/playstation4/139811/Uncharted-4-A-Thiefs-End.htm" target="_blank"><button>Click here to view walkthroughs and Guides</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            <h4 class="row">Trailer:</h4>
             
-            <h4>Trailer:</h4>
+            <div class="ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hh5HV4iic1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             
-            
+
         
 
 
 
-
-
-            
-            <form class="div__form">
-                <label >Was this page helpful?</label>
-                <label for="yes-btn"><input type="radio" id="yes-btn" name="y/n-btn">Yes</label>
-                <label for="no-btn"><input type="radio" id="no-btn" name="y/n-btn">No</label>
-                <label for="comment-area">If you have any suggestions, we would like to hear them.</label>
-                <textarea name="comment-area" id="comment-area" cols="30" rows="10" placeholder="Please enter your comments here..."></textarea>
-                <button type="submit" onclick="form_submit()" value="submit">Submit</button>
-
-            </form>
-            
-
-
-        </div>
-
-        </main>
-
-
-        <footer class="footer">
-            <h4 class="quick-nav">Quick Navigation</h4>
-                <ul class="quick-nav lst">
-                    <li><a class="footer__ul__a" href="index.html">Home</a></li>
-                    <li><a class="footer__ul__a" href="PC.html">PC</a></li>
-                    <li><a class="footer__ul__a" href="PS4.html">PS4</a></li>
-                    <li><a class="footer__ul__a" href="Xbox.html">Xbox</a></li>
-                    <li><a class="footer__ul__a" href="ALL.html">ALL</a></li>
-                </ul>
-            <h4 class="abt-us-nav">About Us</h4>
-                <ul class="abt-us lst">
-                    <li><a class="footer__ul__a" href="About-Us.html">Site Owner</a></li>
-                </ul>
-            <h4 class="contacts-nav">Contacts</h4>
-                <ul class="contacts lst">
-                    <li><a class="footer__ul__a" href="Contacts.html">lorem@ipsum.com</a></li>
-                </ul>
-        </footer>
-        
+            <div class="rounded-3 row bg-body-tertiary col-md-6"> 
+                <form>
+                    <label class="col-form-label-lg">Was this page helpful?</label>
+                    <label class="form-check-label" for="yes-btn"><input class="form-check-input bg-black" type="radio" id="yes-btn" name="y/n-btn">Yes</label>
+                    <label class="form-check-label" for="no-btn"><input class="form-check-input bg-black" type="radio" id="no-btn" name="y/n-btn">No</label>
+                    
+                    <label class="form-label" for="comment-area">If you have any suggestions, we would like to hear them.</label>
+                    <textarea class="form-control" name="comment-area" id="comment-area" cols="30" rows="10" placeholder="Please enter your comments here..." required></textarea>
+                    <button class="btn btn-primary" type="submit" onclick="form_submit()" value="submit">Submit</button>
+                  
+                </form>
+               </div>
+    
+    
+            </div>
+    
+            </main>
+    
+    
+            <footer class="card-footer bg-white text-body rounded-3">
+                <div class="row">
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Quick Navigation</h5>
+                    <ul class="list-unstyled ">
+                      <li class="mb-2"><a class="text-black text-decoration-none" href="index.html">Home</a></li>
+                      <li class="mb-2"><a class="text-black text-decoration-none" href="PC.html">PC</a></li>
+                      <li class="mb-2"><a class="text-black text-decoration-none" href="PS4.html">PS4</a></li>
+                      <li class="mb-2"><a class="text-black text-decoration-none" href="Xbox.html">Xbox</a></li>
+                      <li class="mb-2"><a class="text-black text-decoration-none" href="ALL.html">ALL</a></li>
+                    </ul>
+                  </div>
+    
+                  <div class="col-6 col-lg-2 mb-3">
+                    <h5>About Us</h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-2"><a class="text-black text-decoration-none" href="About-Us.html">Site Owner</a></li>
+                    </ul>
+                  </div>
+    
+    
+                  <div class="col-6 col-lg-2 mb-3">
+                    <h5>Contacts</h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-2"><a class="text-black text-decoration-none" href="Contacts.html">lorem@ipsum.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </footer>
+        </div> 
     </body>
 </html>
